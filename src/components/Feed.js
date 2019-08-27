@@ -8,7 +8,7 @@ class Feed extends Component {
     return (
       <div className="feed">
         <FeedItem contacts={this.props.contacts} />
-        <p>Loading time {loadingTime} seconds</p>
+        {/*<p>Loading time {loadingTime} seconds</p>*/}
       </div>
     );
   }
